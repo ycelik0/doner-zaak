@@ -43,12 +43,8 @@ main {
   font-size: 1.05rem;
 
   &::before {
-    display: none;
-  }
-  @media (min-width: 768px) {
-    &::before {
-      content: '';
-      width: 50%;
+    content: '';
+    width: 50%;
     height: .6em;
     position: absolute;
     top: 50%;
@@ -65,7 +61,6 @@ main {
     &::before {
       width: 70%;
     }
-  }
   }
 }
 
@@ -107,8 +102,22 @@ main {
   z-index: 0;
 }
 
-hr {
-  opacity: 1 !important;
+.hero-title {
+  width: max-content;
+  &::before {
+    content: '';
+    width: 100%;
+    height: .25rem;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    background-color: abstract.$light-color;
+  }
+}
+
+.card-container {
+  margin-top: 10rem;
 }
 
 .card {
@@ -117,14 +126,48 @@ hr {
 
 // Menu
 
+// Media Queries
+@media (max-width: 992px) {
+  .nav-link {
+    text-decoration: none;
+    padding: .125rem;
+    transition: 300ms;
+    position: relative;
+    z-index: 1;
+    font-size: 1.05rem;
+
+    &::before {
+      content: none;
+      width: 50%;
+      height: .6em;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      transform: skewX(-45deg);
+      background-color: rgb(255, 255, 0, .6);
+      transition: 300ms;
+      z-index: -1;
+    }
+    
+    &:hover {
+      opacity: 1;
+      &::before {
+        width: 70%;
+      }
+    }
+  }
+}
+
+
 // Scrollbar
 
 ::-webkit-scrollbar {
-  width: .3rem;
+  width: .4rem;
 }
 
 ::-webkit-scrollbar-thumb {
   height: 3rem;
-  background-color: #dc3545;
+  background-color: rgb(173, 173, 173);
   border-radius: 1rem;
 }
