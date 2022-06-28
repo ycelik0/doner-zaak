@@ -19,28 +19,28 @@
           </h4>
         </div>
         <div class="card-container d-flex flex-column flex-md-row justify-content-center">
-          <div class="card text-black mx-lg-5 mx-auto my-3 m-md-0 px-5 py-3 d-flex flex-column justify-content-between">
-            <div class="review text-center">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
-            <div class="rating text-end d-flex justify-content-around">
-              <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="card text-black mx-lg-4 mx-auto mt-3 m-md-0 container py-3 d-flex flex-column justify-content-around">
+            <div class="review text-center align-end">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <div class="rating text-end d-flex justify-content-between">
+              <div class="stars ms-2 mt-auto">⭐⭐⭐⭐⭐</div>
               <div class="reviewer">
                 -Yusa
               </div>
             </div>
           </div>
-          <div class="card text-black mx-lg-5 mx-auto my-3 m-md-0 px-5 py-3 d-flex flex-column justify-content-between">
-            <div class="review text-center">Lorem ipsum dolor sit amet consectetur.</div>
-            <div class="rating text-end d-flex justify-content-around">
-              <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="card text-black mx-lg-4 mx-auto mt-3 m-md-0 container py-3 d-flex flex-column justify-content-around">
+            <div class="review text-center align-end">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="rating text-end d-flex justify-content-between">
+              <div class="stars ms-2 mt-auto">⭐⭐⭐⭐⭐</div>
               <div class="reviewer">
                 -Muhammed
               </div>
             </div>
           </div>
-          <div class="card text-black mx-lg-5 mx-auto my-3 m-md-0 px-5 py-3 d-flex flex-column justify-content-between">
-            <div class="review text-center">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
-            <div class="rating text-end d-flex justify-content-around">
-              <div class="stars">⭐⭐⭐⭐⭐</div>
+          <div class="card text-black mx-lg-4 mx-auto mt-3 m-md-0 container py-3 d-flex flex-column justify-content-around">
+            <div class="review text-center align-end">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+            <div class="rating text-end d-flex justify-content-between">
+              <div class="stars ms-2 mt-auto">⭐⭐⭐⭐⭐</div>
               <div class="reviewer">
                 -Yusuf
               </div>

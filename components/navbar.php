@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger position-fixed">
+<nav class="navbar navbar-expand-lg navbar-dark position-fixed">
     <div class="container-fluid m-0 p-0">
       <div class="nav-logo-container p-0 ps-sm-5">
         <img class="navbar-logo" src="./img/Leyweg_logo.png" alt="Logo">
@@ -8,7 +8,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse bg-danger" id="navbar-toggle">
+      <div class="collapse navbar-collapse" id="navbar-toggle">
         <ul class="navbar-nav ms-auto text-center">
           <li class="nav-item mx-2 my-2 my-md-none">
             <a class="nav-link active" href="menu.php">Menu</a>

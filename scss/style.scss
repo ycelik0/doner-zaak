@@ -28,6 +28,11 @@ main {
   right: 0;
   height: $navbar-height;
   z-index: 10;
+  transition: 300ms;
+}
+
+.navbar-nav {
+  transition: 300ms;
 }
 
 .navbar-logo {
@@ -62,6 +67,10 @@ main {
       width: 70%;
     }
   }
+}
+
+.navbar.scrolled {
+  background-color: #dc3545;
 }
 
 // Hero
@@ -121,7 +130,12 @@ main {
 }
 
 .card {
-  width: 20rem !important;
+  width: 22rem !important;
+  height: 10rem !important;
+}
+
+.review {
+  // height: 100%;
 }
 
 // Menu
@@ -141,7 +155,6 @@ main {
       width: 50%;
       height: .6em;
       position: absolute;
-      top: 50%;
       left: 0;
       right: 0;
       transform: skewX(-45deg);
@@ -156,6 +169,15 @@ main {
         width: 70%;
       }
     }
+  }
+  
+  .navbar,
+  .navbar-nav {
+    background-color: #dc3545;
+  }
+  
+  .card-container {
+    margin-top: 4rem;
   }
 }
 
